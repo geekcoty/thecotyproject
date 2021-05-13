@@ -1,0 +1,20 @@
+$mobileBreakpoint : 668px;
+$tabletBreakpoint : 992px;
+
+.global-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .menu-div{
+   margin: 2.5rem;
+  }
+  .menu-div,
+  .hidden-div{  
+    & :hover{
+       background-color: #666666;
+       width: 100px;
+       height: 100px;
+       border-radius: 50%;
+    }
+  }
+}
