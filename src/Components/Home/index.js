@@ -4,9 +4,11 @@ import "./style.scss";
 class Home extends React.Component {
   render() {
     
-    return <div className="global-home">
+    return (
+    <div className="global-home">
       <p> welcome </p>
-    </div>
+      </div>
+        )
   }
 }
 
