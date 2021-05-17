@@ -8,7 +8,7 @@ class Menu extends React.Component {
       <div className="global-menu">
         <div className="menu-div">
           <Link to="/about" className="menu-link">
-            about
+          about
           </Link>
         </div>
         <div className="hidden-div "></div>
@@ -16,21 +16,22 @@ class Menu extends React.Component {
           <a
             href="https://github.com/geekcoty"
             target="_blank"
-            className="menu-link"
+            rel="noreferrer"
+            class="menu-link"
           >
-            portfolio
+          portfolio
           </a>
         </div>
         <div className="hidden-div"></div>
         <div className="menu-div">
           <Link to="/blog" className="menu-link">
-            blog
+          blog
           </Link>
         </div>
         <div className="hidden-div"></div>
         <div className="menu-div">
           <Link to="/" className="menu-link">
-            home
+          home
           </Link>
         </div>
       </div>

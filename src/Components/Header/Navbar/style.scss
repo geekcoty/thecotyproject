@@ -3,17 +3,14 @@ $tabletBreakpoint : 992px;
 
 .global-menu{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   .menu-div{
-   margin: 2.5rem;
-  }
-  .menu-div,
-  .hidden-div{  
-    & :hover{
+    padding: 3rem;
+    text-align: center;
+    &:hover{
        background-color: #666666;
-       width: 100px;
-       height: 100px;
+       width: 6.25rem;
+       height: 6.25rem;
        border-radius: 50%;
     }
   }
