@@ -1,18 +1,18 @@
-import React from "react"
-import "./style.scss"
-import {Link} from "react-router-dom"
+import React from "react";
+import "./style.scss";
+import { Link } from "react-router-dom";
 
 class Menu extends React.Component {
-  render(){
+  render() {
     return (
       <div className="global-menu">
-        <div className="menu-div"></div>
         <div className="menu-div">
           <Link to="/about" className="link">
             <p>about</p>
           </Link>
         </div>
-        <div className="menu-div"></div>
+
+        <div className="hidden-div"></div>
         <div className="menu-div">
           <a
             href="https://github.com/geekcoty"
@@ -23,7 +23,7 @@ class Menu extends React.Component {
             <p>portfolio</p>
           </a>
         </div>
-        <div className="menu-div"></div>
+        <div className="hidden-div"></div>
         <div className="menu-div">
           <Link to="/blog" className="link">
             <p>blog</p>
@@ -35,10 +35,9 @@ class Menu extends React.Component {
             <p>home</p>
           </Link>
         </div>
-        <div className="menu-div"></div>
       </div>
     );
   }
 }
 
-export default Menu
+export default Menu;
