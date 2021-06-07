@@ -8,12 +8,18 @@ import Footer from "./Components/Footer";
 class App extends React.Component {
   render() {
     return (
-    <div className="global-app">
-      <Header/>
-      <Home/>
-      <Footer/>
-    </div>
-    )
+      <div className="global-app">
+        <div className="header">
+          <Header />
+        </div>
+        <div className="section">
+          <Home />
+        </div>
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
+    );
   }
 }
 

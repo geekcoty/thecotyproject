@@ -3,8 +3,12 @@ import "./style.scss";
 
 class Posts extends React.Component {
   render() {
-    return <p> Soy el componente posts</p>;
-  }
+    return (
+      <div className="global-posts">
+        <p> soy el componente posts </p>
+      </div>
+    );
+}
 }
 
 export default Posts;

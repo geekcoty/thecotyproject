@@ -1,0 +1,73 @@
+$mobileBreakpoint: 668px;
+$tabletBreakpoint: 992px;
+.responsive-div {
+ min-height: 5rem;
+  color: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+@media (max-width: 688px)and
+          (max-width: 992px){
+            width: 100%;
+            margin: 0;
+            text-align: center;
+            line-height: 1.25rem;
+          } 
+  ul {
+    list-style: none;
+    margin-right: 4rem;
+    @media (max-width: $mobileBreakpoint)and
+          (max-width: $tabletBreakpoint){
+            position: fixed;
+            top: 0;
+            left: -200%;
+            background: #555;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            z-index: 99;
+            transition: 0.5s linear;
+          }
+    li {
+      display: inline-block;
+      line-height: normal;
+      a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        padding: 0 0.93rem;
+        opacity: 0.6;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .toggle{
+    left: 0;
+  }
+  .menu,
+  .close {
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 0.06rem solid black;
+    padding: 0.62rem 1.25rem;
+    margin-right: 1.25rem;
+    display: none;
+    @media (max-width: $mobileBreakpoint)and
+          (max-width: $tabletBreakpoint) {
+            display: block;
+          }
+  }
+  .close {
+    position: absolute;
+    top: 0.62rem;
+    right: 0;
+    border-radius: 0.31rem;
+  }
+}

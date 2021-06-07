@@ -1,0 +1,18 @@
+$mobileBreakpoint : 668px;
+$tabletBreakpoint : 992px;
+
+
+.global-blog {
+  .blog-responsive{
+    display: none;
+     @media (max-width: $mobileBreakpoint) and (max-width:$tabletBreakpoint) {
+       display: flex;
+       flex-direction: column;
+     }
+    }
+  .blog-header {
+     @media (max-width: $mobileBreakpoint) and (max-width:$tabletBreakpoint) {
+     display:none;
+  }
+}
+}

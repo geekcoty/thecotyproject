@@ -1,5 +1,14 @@
+$mobileBreakpoint : 668px;
+$tabletBreakpoint : 992px;
+
 .global-app{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  .section{
+     @media (max-width: $mobileBreakpoint) and (max-width:$tabletBreakpoint) {
+     display:none;
+  }
+    
+}
 }

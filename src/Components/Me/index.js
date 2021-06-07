@@ -5,10 +5,10 @@ import "./style.scss"
 class Me extends React.Component {
   render(){
     return (
-      
-      <p> Soy el componente me</p>
-    
-    )
+      <div className="global-me">
+        <p> soy el componente me </p>
+      </div>
+    );
   }
 }
 

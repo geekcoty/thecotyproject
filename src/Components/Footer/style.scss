@@ -6,5 +6,15 @@ $tabletBreakpoint : 992px;
   justify-content: center;
   .sm-div{
     padding: 1rem;
+    .sm-icons{
+      padding: 1rem;
+      &:active{
+        color: black;
+      }
+      &:visited{
+        color: black;
+      }    
+      color: black;
+    }
+    }
   }
-}
