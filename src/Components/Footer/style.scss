@@ -4,6 +4,7 @@ $tabletBreakpoint : 992px;
 .global-footer{
   display: flex;
   justify-content: center;
+ 
   .sm-div{
     padding: 1rem;
     .sm-icons{
@@ -16,5 +17,10 @@ $tabletBreakpoint : 992px;
       }    
       color: black;
     }
-    }
+        }
+         @media (max-width: $mobileBreakpoint)and
+          (max-width: $tabletBreakpoint){
+            margin-top: 2.5rem;
+          }
+    
   }
