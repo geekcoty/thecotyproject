@@ -21,7 +21,7 @@ $tabletBreakpoint: 992px;
     @media (max-width: $mobileBreakpoint)and
           (max-width: $tabletBreakpoint){
             position: fixed;
-            top: 0;
+            top: -2.3%;
             left: -200%;
             background: #555;
             width: 100%;
@@ -30,7 +30,7 @@ $tabletBreakpoint: 992px;
             justify-content: space-around;
             align-items: center;
             flex-direction: column;
-            z-index: 99;
+            z-index: 100;
             transition: 0.5s linear;
           }
     li {
@@ -66,8 +66,8 @@ $tabletBreakpoint: 992px;
   }
   .close {
     position: absolute;
-    top: 0.62rem;
-    right: 0;
-    border-radius: 0.31rem;
+    top: 0.60rem;
+    right: 1.5rem;
+    border-radius: 0.35rem;
   }
 }

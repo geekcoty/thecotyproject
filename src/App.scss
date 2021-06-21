@@ -5,6 +5,7 @@ $tabletBreakpoint : 992px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
   .section{
      @media (max-width: $mobileBreakpoint) and (max-width:$tabletBreakpoint) {
      display:none;
