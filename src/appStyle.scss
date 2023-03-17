@@ -1,0 +1,35 @@
+.container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .picContainer {
+    .picHolder {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+    }
+  }
+  .contentContainer{
+      width: 100%;
+        overflow: hidden;
+  .textContainer{
+    text-align: center;
+    .textTitle{
+      font-size: 4.5rem;
+      font-weight: 600;
+      margin-top: 0.50rem;
+      margin-bottom: -0.5rem;
+    }
+    .textParagraph{
+      margin-top: 0.50rem;
+      line-height: 1.25rem;
+    }
+    .linkStyle{
+      color: white;     
+    }
+  }
+  }
+}

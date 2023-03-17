@@ -1,0 +1,18 @@
+.formContainer {
+
+  display: flex;
+  flex-direction: column;
+
+  .formInput {
+    border: 0;
+    width: 70%;
+
+  }
+
+  .formButton {
+    margin-top: 1rem;
+    width: 71.2%;
+
+    border: 0;
+  }
+}
