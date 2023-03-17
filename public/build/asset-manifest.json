@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b0bcd38.css",
+    "main.js": "/static/js/main.95c71673.js",
+    "static/js/787.9c00eff8.chunk.js": "/static/js/787.9c00eff8.chunk.js",
+    "static/media/coty.jpeg": "/static/media/coty.fb75107e0fac0808686e.jpeg",
+    "index.html": "/index.html",
+    "main.9b0bcd38.css.map": "/static/css/main.9b0bcd38.css.map",
+    "main.95c71673.js.map": "/static/js/main.95c71673.js.map",
+    "787.9c00eff8.chunk.js.map": "/static/js/787.9c00eff8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b0bcd38.css",
+    "static/js/main.95c71673.js"
+  ]
+}
